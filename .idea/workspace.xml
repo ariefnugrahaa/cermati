@@ -6,24 +6,33 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="860a3d0a-b995-43c5-831b-9c212c4e0ce1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/entity/response/CommentResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/domain/usecase/GetCommentUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sbprinter/codex-sbprinter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_android.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/ApiService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/ApiServiceManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/ApiServiceManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/dependencies/AriefPresenterModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/dependencies/AriefPresenterModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/dependencies/AriefUseCaseModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/dependencies/AriefUseCaseModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/entity/response/CommentResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/entity/response/CommentResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/entity/response/StoryResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/entity/response/StoryResponse.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/detail/DetailActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/detail/DetailActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/detail/DetailContract.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/detail/DetailContract.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/detail/DetailPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/detail/DetailPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/ListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/ListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/model/ListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/model/ListViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_story.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_story.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,10 +57,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Object" />
-        <option value="Kotlin Class" />
         <option value="layoutResourceFile" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -212,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584030940683</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[Arief] Fetch comments">
+      <created>1584031851588</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584031851588</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +249,8 @@
     <MESSAGE value="[Arief] Add DetailActivity" />
     <MESSAGE value="[Arief] Handle intent to detail activity" />
     <MESSAGE value="[Arief] Intent to detail activity" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Arief] Intent to detail activity" />
+    <MESSAGE value="[Arief] Fetch comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Arief] Fetch comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

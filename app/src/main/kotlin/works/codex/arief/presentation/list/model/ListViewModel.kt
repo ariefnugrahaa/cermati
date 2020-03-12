@@ -1,9 +1,7 @@
 package works.codex.arief.presentation.list.model
 
-import android.os.Parcelable
-import kotlinx.android.parcel.Parcelize
+import java.io.Serializable
 
-@Parcelize
 data class ListViewModel(
     val id: Int? = 0,
     val title: String? = null,
@@ -11,4 +9,4 @@ data class ListViewModel(
     val date: String? = null,
     val text: String? = null,
     val comments: MutableList<Int?>? = null
-) : Parcelable
+) : Serializable

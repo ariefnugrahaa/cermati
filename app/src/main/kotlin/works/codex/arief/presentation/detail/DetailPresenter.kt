@@ -19,7 +19,12 @@ class DetailPresenter(
     override fun fetchComments(comments: MutableList<Int?>?) {
         val listOfId = mutableListOf<Int>()
         val listOfStoryObservable = mutableListOf<Observable<CommentResponse>>()
-        for (position in 0 until 10) {
+        val size = if (comments?.size ?: 0 > 10) {
+            10
+        } else {
+            comments?.size ?: 0
+        }
+        for (position in 0 until size) {
             comments?.let { listOfId.add(it[position]!!) }
         }
         listOfId.forEach { listOfStoryObservable.add(getStoryDetailObservable(it)) }

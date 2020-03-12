@@ -1,13 +1,11 @@
 package works.codex.arief.data.server.entity.response
 
-import android.os.Parcelable
-import com.google.gson.annotations.SerializedName
 import androidx.annotation.Keep
 import com.google.gson.annotations.Expose
-import kotlinx.android.parcel.Parcelize
+import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 @Keep
-@Parcelize
 data class StoryResponse(
     @SerializedName("by")
     @Expose
@@ -39,4 +37,4 @@ data class StoryResponse(
     @SerializedName("text")
     @Expose
     val text: String?
-) : Parcelable
+) : Serializable

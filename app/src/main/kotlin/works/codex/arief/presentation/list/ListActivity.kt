@@ -2,8 +2,8 @@ package works.codex.arief.presentation.list
 
 import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import kotlinx.android.synthetic.main.activity_list.*
 import works.codex.arief.AriefApplication
@@ -60,7 +60,7 @@ class ListActivity : AppCompatActivity(), ListContract.View {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == NavigationService.RESULT_ID && resultCode == Activity.RESULT_OK) {
             val title = intent.getStringExtra(NavigationService.EXTRA_ID)
-            // TODO: set to textview
+            textview_fav.text = title
         }
     }
 
