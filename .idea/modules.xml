@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="codex/app" />
+      <module fileurl="file://$PROJECT_DIR$/codex.iml" filepath="$PROJECT_DIR$/codex.iml" group="codex" />
+      <module fileurl="file://$PROJECT_DIR$/sbprinter/sbprinter.iml" filepath="$PROJECT_DIR$/sbprinter/sbprinter.iml" group="codex/sbprinter" />
+    </modules>
+  </component>
+</project>
