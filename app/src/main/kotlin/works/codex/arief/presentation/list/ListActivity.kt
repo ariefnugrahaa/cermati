@@ -58,8 +58,8 @@ class ListActivity : AppCompatActivity(), ListContract.View {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        if (requestCode == Activity.RESULT_OK  && resultCode == NavigationService.RESULT_ID) {
-            val title = intent.getStringExtra(NavigationService.EXTRA_ID)
+        if (requestCode == NavigationService.RESULT_ID && resultCode == Activity.RESULT_OK) {
+            val title = data?.getStringExtra(NavigationService.EXTRA_ID)
             textview_fav.text = title
         }
     }

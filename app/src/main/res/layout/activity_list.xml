@@ -30,14 +30,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:indeterminate="false"
-        android:backgroundTint="@color/colorAccent"
+        android:progressTint="@color/white"
         android:visibility="invisible" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginTop="@dimen/small_margin"
+        android:gravity="center"
         android:text="My Fav"
         android:textColor="@color/white" />
 
@@ -46,15 +46,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="ASK HN"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="@dimen/large_font_size"
+        tools:text="ASK HN" />
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview_story"
-        android:background="@color/white"
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/white" />
 
 </LinearLayout>

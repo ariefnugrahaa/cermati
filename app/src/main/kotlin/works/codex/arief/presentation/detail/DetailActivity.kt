@@ -1,5 +1,6 @@
 package works.codex.arief.presentation.detail
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
@@ -28,13 +29,14 @@ class DetailActivity : AppCompatActivity(), DetailContract.View {
         super.onDestroy()
     }
 
+    @SuppressLint("SetTextI18n")
     override fun initViews() {
         data?.let {
             text_title.text = it.title.orEmpty()
-            text_author.text = it.author.orEmpty()
-            text_description.text = it.text.orEmpty()
+            text_author.text = "by ${it.author.orEmpty()}\n${it.date.orEmpty()}"
+            text_description.text = "Deskripsi : \n${it.text ?: "Tidak ada Deskripsi"}"
 
-            imageview_star.setOnClickListener { v ->
+            imageview_star.setOnClickListener { _ ->
                 val intent = Intent().apply {
                     putExtra(NavigationService.EXTRA_ID, it.title)
                 }
@@ -45,17 +47,18 @@ class DetailActivity : AppCompatActivity(), DetailContract.View {
         }
     }
 
-    override fun hideLoading() {
-
-    }
+    override fun hideLoading() = Unit
 
     override fun showComment(data: MutableList<CommentViewModel>?) {
-        var comments = ""
-        data?.forEach {
-            comments += "${it.text}\n"
-
+        var comments = "Komentar : \n"
+        if (data.isNullOrEmpty()){
+            comments += "Tidak ada komentar"
+        }else {
+            data.forEach {
+                comments += "${it.text}\n"
+            }
         }
-        text_comment.text = comments
+        runOnUiThread { text_comment.text = comments }
     }
 
     override fun onError(it: Throwable?) {

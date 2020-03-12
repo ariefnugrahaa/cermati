@@ -21,71 +21,76 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            tools:text="Detail"
+            android:text="Detail Stories"
             android:textColor="@color/white" />
     </androidx.appcompat.widget.Toolbar>
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:background="@color/white"
-        android:orientation="vertical"
-        android:layout_marginTop="10dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="end"
-            android:padding="10dp">
+            android:layout_margin="@dimen/medium_margin"
+            android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageview_star"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                app:srcCompat="@drawable/ic_android"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
 
+                <TextView
+                    android:id="@+id/text_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/huge_font_size"
+                    tools:text="Title" />
+
+                <ImageView
+                    android:id="@+id/imageview_star"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    app:srcCompat="@drawable/ic_android" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/small_margin"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/large_font_size"
+                tools:text="Title" />
+
+            <TextView
+                android:id="@+id/text_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/large_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/medium_font_size"
+                tools:text="Title" />
+
+            <TextView
+                android:id="@+id/text_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/large_margin"
+                android:textColor="@color/black"
+                android:layout_marginBottom="@dimen/medium_margin"
+                android:textSize="@dimen/medium_font_size"
+                tools:text="Title" />
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/text_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            tools:text="Title"
-            android:gravity="center"
-            android:textColor="@color/black" />
-
-        <TextView
-            android:id="@+id/text_author"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:textSize="20sp"
-            android:text="Title"
-            android:gravity="center"
-            android:textColor="@color/black" />
-
-        <TextView
-            android:id="@+id/text_description"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:textSize="20sp"
-            android:text="Title"
-            android:gravity="center"
-
-            android:textColor="@color/black" />
-
-        <TextView
-            android:id="@+id/text_comment"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:textSize="20sp"
-            android:text="Title"
-            android:gravity="center"
-            android:textColor="@color/black" />
-    </LinearLayout>
-
+    </ScrollView>
 </LinearLayout>
