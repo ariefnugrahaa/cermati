@@ -3,6 +3,7 @@ package works.codex.arief.dependencies
 import android.content.Context
 import dagger.Component
 import works.codex.arief.data.server.ApiServiceManager
+import works.codex.arief.presentation.detail.DetailPresenter
 import works.codex.arief.presentation.list.ListPresenter
 import works.codex.arief.service.NavigationService
 import javax.inject.Singleton
@@ -23,4 +24,5 @@ interface AriefComponent {
     fun provideNavigationService(): NavigationService
 
     fun provideListPresenter(): ListPresenter
+    fun provideDetailPresenter(): DetailPresenter
 }

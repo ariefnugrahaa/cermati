@@ -1,4 +1,4 @@
-package works.codex.arief.presentation.list
+package works.codex.arief.presentation.detail
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,7 +12,7 @@ import works.codex.arief.common.extension.showToast
 import works.codex.arief.presentation.list.adapter.StoryAdapter
 import works.codex.arief.presentation.list.model.ListViewModel
 
-class ListActivity : AppCompatActivity(), ListContract.View {
+class DetailActivity : AppCompatActivity(), DetailContract.View {
 
     private val presenter by lazy { AriefApplication.ariefComponent.provideListPresenter() }
     private val navigator by lazy { AriefApplication.ariefComponent.provideNavigationService() }
@@ -29,37 +29,8 @@ class ListActivity : AppCompatActivity(), ListContract.View {
     }
 
     override fun initViews() {
-        recyclerview_story.apply {
-            layoutManager = GridLayoutManager(this@ListActivity, GRID_SIZE)
-            adapter = StoryAdapter { position, id -> onClick(position, id) }
-        }.also {
-            presenter.fetchStoryData()
-        }
+
     }
 
-    override fun onError(it: Throwable?) {
-        showToast("Error Cuuuy")
-    }
 
-    override fun showListData(it: MutableList<ListViewModel>?) {
-        runOnUiThread { it?.let { getListAdapter()?.setData(it) } }
-    }
-
-    override fun hideLoading() {
-        progress_bar.makeInvisible()
-    }
-
-    override fun showLoading() {
-        progress_bar.makeVisible()
-    }
-
-    private fun onClick(position: Int, id: Int?) {
-        navigator.startDetailActivity(this@ListActivity, id)
-    }
-
-    private fun getListAdapter(): StoryAdapter? = recyclerview_story?.adapter as? StoryAdapter
-
-    companion object {
-        private const val GRID_SIZE = 2
-    }
 }
