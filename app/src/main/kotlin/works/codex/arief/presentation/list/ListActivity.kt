@@ -1,5 +1,7 @@
 package works.codex.arief.presentation.list
 
+import android.app.Activity
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
@@ -11,6 +13,7 @@ import works.codex.arief.common.extension.makeVisible
 import works.codex.arief.common.extension.showToast
 import works.codex.arief.presentation.list.adapter.StoryAdapter
 import works.codex.arief.presentation.list.model.ListViewModel
+import works.codex.arief.service.NavigationService
 
 class ListActivity : AppCompatActivity(), ListContract.View {
 
@@ -51,6 +54,14 @@ class ListActivity : AppCompatActivity(), ListContract.View {
 
     override fun showLoading() {
         progress_bar.makeVisible()
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == NavigationService.RESULT_ID && resultCode == Activity.RESULT_OK) {
+            val title = intent.getStringExtra(NavigationService.EXTRA_ID)
+            // TODO: set to textview
+        }
     }
 
     private fun onClick(position: Int, id: ListViewModel?) {

@@ -13,12 +13,13 @@ class NavigationService {
     }
 
     fun startDetailActivity(activity: Activity, id: ListViewModel?) {
-        activity.startActivity(Intent(activity, DetailActivity::class.java).apply {
+        activity.startActivityForResult(Intent(activity, DetailActivity::class.java).apply {
             putExtra(EXTRA_ID, id)
-        })
+        }, RESULT_ID)
     }
 
     companion object {
         const val EXTRA_ID = "intent.extra.id"
+        const val RESULT_ID = 123
     }
 }
