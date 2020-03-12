@@ -41,7 +41,6 @@ class DetailActivity : AppCompatActivity(), DetailContract.View {
                 setResult(Activity.RESULT_OK, intent)
                 finish()
             }
-
             presenter.fetchComments(it.comments)
         }
     }

@@ -2,8 +2,8 @@ package works.codex.arief.presentation.list
 
 import android.app.Activity
 import android.content.Intent
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
 import kotlinx.android.synthetic.main.activity_list.*
 import works.codex.arief.AriefApplication
@@ -58,7 +58,7 @@ class ListActivity : AppCompatActivity(), ListContract.View {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        if (requestCode == NavigationService.RESULT_ID && resultCode == Activity.RESULT_OK) {
+        if (requestCode == Activity.RESULT_OK  && resultCode == NavigationService.RESULT_ID) {
             val title = intent.getStringExtra(NavigationService.EXTRA_ID)
             textview_fav.text = title
         }
@@ -73,4 +73,5 @@ class ListActivity : AppCompatActivity(), ListContract.View {
     companion object {
         private const val GRID_SIZE = 2
     }
+
 }
