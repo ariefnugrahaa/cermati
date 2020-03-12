@@ -10,7 +10,7 @@ import works.codex.arief.R
 import works.codex.arief.common.base.adapter.BaseAdapter
 import works.codex.arief.presentation.list.model.ListViewModel
 
-class StoryAdapter(private val onClickListener: (position: Int, id: Int?) -> Unit) : BaseAdapter<ItemViewHolder, ListViewModel>() {
+class StoryAdapter(private val onClickListener: (position: Int, data: ListViewModel) -> Unit) : BaseAdapter<ItemViewHolder, ListViewModel>() {
 
     init {
         setHasStableIds(true)
@@ -60,11 +60,11 @@ class StoryAdapter(private val onClickListener: (position: Int, id: Int?) -> Uni
     }
 }
 
-class ItemViewHolder(viewItem: View, private val onClickListener: (position: Int, id: Int?) -> Unit) : RecyclerView.ViewHolder(viewItem) {
+class ItemViewHolder(viewItem: View, private val onClickListener: (position: Int, data: ListViewModel) -> Unit) : RecyclerView.ViewHolder(viewItem) {
     fun bindData(data: ListViewModel) {
         itemView.textview_item.text = data.title
         itemView.container_adapter.setOnClickListener {
-            onClickListener(adapterPosition, data.id)
+            onClickListener(adapterPosition, data)
         }
     }
 }

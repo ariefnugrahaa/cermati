@@ -40,6 +40,12 @@
             android:theme="@style/AppTheme.Splash"
             android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
             tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".presentation.detail.DetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Splash"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+            tools:ignore="LockedOrientationActivity" />
     </application>
 
 </manifest>

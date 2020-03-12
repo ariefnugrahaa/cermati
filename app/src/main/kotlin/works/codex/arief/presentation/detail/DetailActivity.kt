@@ -14,8 +14,7 @@ import works.codex.arief.presentation.list.model.ListViewModel
 
 class DetailActivity : AppCompatActivity(), DetailContract.View {
 
-    private val presenter by lazy { AriefApplication.ariefComponent.provideListPresenter() }
-    private val navigator by lazy { AriefApplication.ariefComponent.provideNavigationService() }
+    private val presenter by lazy { AriefApplication.ariefComponent.provideDetailPresenter() }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

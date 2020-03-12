@@ -5,436 +5,67 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="860a3d0a-b995-43c5-831b-9c212c4e0ce1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/AriefApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/dependencies/AriefMapperModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/StickerMaker.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/full-r8-config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/full-r8-config.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/production/release/output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/production/release/watong-prod-2.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/production/release/watong-prod.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/production/release/watong-prod03.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/kotlin/id/pahlevikun/clean/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_7_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_7_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/extension/IntExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_10_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_14_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava2_2_4_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava2_2_7_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/LeviApplication.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/GenericFileProvider.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/adapter/BaseAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/base/adapter/BaseAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/adapter/BaseViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/composer/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/base/composer/BaseActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/composer/BaseBottomDialog.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/composer/BaseCallback.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/composer/BaseFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/model/CheckAbleItem.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/model/Emptyable.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/model/HeaderDetailsModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/presenter/BasePresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/base/presenter/BasePresenter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/presenter/Presenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/base/presenter/Presenter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/view/EndlessScrollListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/base/view/NonSwipeAbleViewPager.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/event/Events.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/event/Events.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/event/GlobalEvent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/event/GlobalEvent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/event/GlobalEventHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/event/GlobalEventHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/extension/ActivityExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/extension/ActivityExtension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/extension/ContextExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/extension/ContextExtension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/extension/DoubleExtension.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/extension/DrawableExtension.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/extension/OkHttpBuilderExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/extension/OkHttpBuilderExtension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/extension/StringExtention.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/extension/StringExtention.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/extension/ThrowableExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/extension/ThrowableExtension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/extension/ValidatorExtension.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/extension/ViewExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/extension/ViewExtension.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/utils/Constants.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/utils/DateTimeHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/utils/ErrorHelper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/utils/HandlerOnError.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/utils/Helper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/utils/Logger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/common/utils/Logger.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/utils/Watong_dialog.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/widgets/EndlessScrollListener.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/widgets/LeviButton.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/widgets/LeviShimmer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/widgets/LeviTextField.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/widgets/NonSwipeAbleViewPager.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/common/widgets/ViewPagerAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/local/LocalServiceManager.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/local/db/DbService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/local/db/WatongDatabase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/local/db/table/MenuItem.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/local/db/table/MenuOrder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/local/preference/PreferenceService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/mapper/LoginViewMapper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/mapper/MenuDataMapper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/ApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/ApiService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/ApiServiceManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/ApiServiceManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/entity/request/CreateOrderRequest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/entity/response/CheckMemberResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/entity/response/CreateMemberResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/entity/response/CreateOrderResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/entity/response/LoginResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/entity/response/LogoutResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/entity/response/MenuResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/entity/response/OrderResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/entity/response/ReceiptDetailResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/entity/response/ReceiptsResponse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/model/BaseResponseWrapper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/data/server/model/Tls12SocketFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/model/Tls12SocketFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/dependencies/LeviApplicationModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/dependencies/AriefApplicationModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/dependencies/LeviComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/dependencies/AriefComponent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/dependencies/LeviMapperModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/dependencies/LeviNetworkModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/dependencies/AriefNetworkModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/dependencies/LeviPresenterModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/dependencies/AriefPresenterModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/dependencies/LeviServiceModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/dependencies/AriefServiceModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/dependencies/LeviStorageModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/dependencies/LeviUseCaseModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/dependencies/AriefUseCaseModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/entity/Category.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/entity/Credentials.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/entity/GetListMenu.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/entity/Login.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/entity/Member.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/entity/MemberCheck.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/entity/Menu.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/entity/Order.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/entity/UpdateOrderList.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/mapper/ReceiptDataMapper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/usecase/CredentialsUseCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/usecase/MemberUseCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/usecase/MenuUseCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/usecase/OrderUseCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/domain/usecase/ReceiptUseCase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/HomeActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/HomeContract.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/HomePresenter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/account/AccountContract.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/account/AccountFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/account/AccountPresenter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/member/MemberContract.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/member/MemberFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/member/MemberPresenter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/member/memberactivity/MemberActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/member/memberactivity/MemberActivityInterface.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/member/memberactivity/MemberActivityPresenter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/member/memberactivity/membercheck/MemberCheckFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/member/memberactivity/membercheck/MemberCheckInterface.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/member/memberactivity/membercheck/MemberCheckPresenter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/member/memberactivity/memberregister/MemberRegisterFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/member/memberactivity/memberregister/MemberRegisterInterface.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/member/memberactivity/memberregister/MemberRegisterPresenter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/order/OrderContract.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/order/OrderFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/order/OrderPresenter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/order/adapter/AdapterReceiptOrder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/pos/adapter/AdapterPosCategory.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/pos/adapter/AdapterPosMenu.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/pos/detailchart/DetailChartActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/pos/detailchart/DetailChartContract.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/pos/detailchart/DetailChartPresenter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/pos/detailchart/adapter/DetailCartAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/pos/posfragment/PosContract.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/pos/posfragment/PosFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/home/pos/posfragment/PosPresenter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/login/LoginActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/login/LoginContract.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/login/LoginPresenter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/splash/SplashActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/splash/SplashContract.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/presentation/splash/SplashPresenter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/id/pahlevikun/clean/service/NavigationService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/service/NavigationService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_down.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_up.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/to_down.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/to_up.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_add_membership.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_add_membership_white.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_card_membership.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_chart_item.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_check_done.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_check_membership.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_check_membership_white.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_close_black.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_coin_gold.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_note_item.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_receipt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_smile_primary.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_add_membership.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_add_membership_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_card_membership.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_chart_item.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_check_done.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_check_membership.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_check_membership_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_close_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_coin_gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_note_item.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_receipt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_smile_primary.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_add_membership.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_add_membership_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_card_membership.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_chart_item.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_check_done.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_check_membership.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_check_membership_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_close_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_coin_gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_note_item.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_receipt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_smile_primary.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_add_membership.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_add_membership_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_card_membership.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_chart_item.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_check_done.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_check_membership.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_check_membership_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_close_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_coin_gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_note_item.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_receipt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_smile_primary.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_add_membership.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_add_membership_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_card_membership.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_chart_item.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_check_done.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_check_membership.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_check_membership_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_close_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_coin_gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_note_item.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_receipt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_smile_primary.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/background_gradient.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/background_white.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_background_bordered.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_background_white_bordered.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_background_bordered_disabled.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_background_bordered_enabled.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_background_bordered_loading.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_background_bordered_pressed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_background_bordered_selector.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_rounded_background_selector.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_circle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_circle_shimmer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_rectangle_color_primary.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_rectangle_ed_text_field_error.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_rectangle_ed_text_field_initial.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_rectangle_ed_text_field_text_font.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_rectangle_red_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_rectangle_white_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_rectangle_white_logo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_rounded_corner_shimmer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_shape_semi_circle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_xml_button_bayar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_xml_button_login_normal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_xml_button_logout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_xml_button_secondary.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dummy1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dummy2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dummy3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/dummy4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_img_menu_account.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_img_menu_member.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_img_menu_order.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_img_menu_pos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_shopping_basket_white_24dp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_vec_address.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_vec_name.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_vec_phone.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_vect_email.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_vect_flash.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_vect_input.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_vect_logout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_vect_member.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_vect_password.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_vect_print.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_vect_scan.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_watong_white.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rec_gradient.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rect_gradient_fb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/selector_main_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/shape_rounded_border.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/google_sans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/gs_bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/gs_bold_italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/gs_italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/gs_medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/gs_medium_italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/gs_regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail_chart.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_member.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_scan.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_member_check.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_member_register_succes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_account.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_member.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_member_checked.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_member_register.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_order.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pos.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/holder_list_category.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/holder_list_order.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/holder_menu_item_order.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/holder_order_list_receipt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_camera_controller.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_loading_shimmer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_loading_single_item_shimmer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_toolbar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/widget_waroeng_text_field.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/navigation_drawer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-hdpi/dimens.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-in/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-sw1080dp/positive_dp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-sw480dp/positive_dp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-sw600dp/positive_dp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-sw720dp/positive_dp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v23/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/levi_button_styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/levi_color_palette.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/levi_text_styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/positive_dp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/provider_paths.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/production/google-services.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/staging/google-services.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/kotlin/id/pahlevikun/clean/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/task.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/watong.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-system/all-libs-instrumental-test.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-system/all-libs-unit-test.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-system/all-task-jacoco.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-system/app-task-crashlytics.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-system/dep-libs-android-module.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-system/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build-system/dependencies.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-system/jacoco.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/generated/source/buildConfig/debug/id/pahlevikun/sbprinter/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/generated/source/buildConfig/release/id/pahlevikun/sbprinter/BuildConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/aapt_friendly_merged_manifests/release/aapt/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/annotations_typedef_file/debug/extractDebugAnnotations/typedefs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/compile_library_classes/debug/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/BuildConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/SBPrinter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/SBPrinter$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/SBPrinter$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/SBPrinter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/internal/command/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/internal/command/PrinterCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/internal/common/helper/BluetoothHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/internal/common/service/BluetoothService$AcceptThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/internal/common/service/BluetoothService$ConnectThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/internal/common/service/BluetoothService$ConnectedThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/internal/common/service/BluetoothService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/internal/common/utilities/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/internal/presentation/DeviceListActivity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/internal/presentation/DeviceListActivity$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/internal/presentation/DeviceListActivity$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/internal/presentation/DeviceListActivity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/open/listener/BluetoothDeviceListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/open/listener/DeviceStateListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/open/listener/PrintingListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/open/model/Receipt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/open/model/ReceiptBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/open/model/ReceiptBodyData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/open/model/ReceiptFooter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/open/model/ReceiptHeader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/id/pahlevikun/sbprinter/open/model/ReceiptQr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/library_java_res/debug/res.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/library_manifest/debug/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/library_manifest/release/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/packaged-classes/debug/libs/btsdk.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/packaged-classes/debug/libs/zixng.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/packaged_res/debug/layout/custom_title.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/packaged_res/debug/layout/device_name.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/packaged_res/debug/layout/layout_device_list.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/packaged_res/debug/layout/main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/packaged_res/debug/layout/main_activity.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/packaged_res/debug/layout/message.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/runtime_library_classes/debug/classes.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/symbols/debug/R.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/intermediates/transforms/stripDebugSymbol/debug/__content__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/outputs/aar/sbprinter-debug.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/build/outputs/logs/manifest-merger-release-report.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/libs/btsdk.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/libs/zixng.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/androidTest/java/id/pahlevikun/sbprinter/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/SBPrinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/internal/command/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/internal/command/PrinterCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/internal/common/helper/BluetoothHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/internal/common/service/BluetoothService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/internal/common/utilities/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/internal/presentation/DeviceListActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/open/listener/BluetoothDeviceListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/open/listener/DeviceStateListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/open/listener/PrintingListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/open/model/Receipt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/open/model/ReceiptBody.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/open/model/ReceiptBodyData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/open/model/ReceiptFooter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/open/model/ReceiptHeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/java/id/pahlevikun/sbprinter/open/model/ReceiptQr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/res/layout/custom_title.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/res/layout/device_name.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/res/layout/layout_device_list.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/res/layout/main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/res/layout/main_activity.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/res/layout/message.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sbprinter/src/test/java/id/pahlevikun/sbprinter/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/entity/response/StoryResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/data/server/entity/response/StoryResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/detail/DetailActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/detail/DetailActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/ListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/ListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/adapter/StoryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/adapter/StoryAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/mapper/ListMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/mapper/ListMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/model/ListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/model/ListViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/service/NavigationService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/service/NavigationService.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -455,6 +86,17 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="GenerateSignedApkSettings">
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
@@ -464,14 +106,36 @@
   <component name="ProjectId" id="1Z1lktfwsH08lRvxwqT216ZyEVd" />
   <component name="PropertiesComponent">
     <property name="ApkExportedModule" value="app" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res" />
+    <property name="DEBUGGABLE_DEVICE" value="Nexus_5X_API_28 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="works.codex.arief" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Kotlin" />
   </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="debug" />
+  </component>
   <component name="RecentsManager">
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="works.codex.arief.presentation.list" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="works.codex.arief.domain.usecase" />
+      <recent name="works.codex.arief.data.server.entity.response" />
+      <recent name="works.codex.arief.presentation.list" />
       <recent name="works.codex.arief.presentation" />
     </key>
+    <key name="android.template.packageName">
+      <recent name="works.codex.arief" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/detail" />
       <recent name="$PROJECT_DIR$/app/src/main/res" />
     </key>
   </component>
@@ -558,6 +222,21 @@
       <option name="presentableId" value="Default" />
       <updated>1584014626618</updated>
     </task>
+    <task id="LOCAL-00001" summary="[Arief] Create listActivity">
+      <created>1584029797357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584029797358</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[Arief] Add DetailActivity">
+      <created>1584030264797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584030264797</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -570,5 +249,46 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Arief] Create listActivity" />
+    <MESSAGE value="[Arief] Add DetailActivity" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Arief] Add DetailActivity" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/ListPresenter.kt</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/ListPresenter.kt</url>
+          <line>54</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/adapter/StoryAdapter.kt</url>
+          <line>49</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/adapter/StoryAdapter.kt</url>
+          <line>50</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/adapter/StoryAdapter.kt</url>
+          <line>64</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/works/codex/arief/presentation/list/adapter/StoryAdapter.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

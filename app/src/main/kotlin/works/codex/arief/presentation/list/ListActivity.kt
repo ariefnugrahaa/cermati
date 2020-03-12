@@ -53,7 +53,7 @@ class ListActivity : AppCompatActivity(), ListContract.View {
         progress_bar.makeVisible()
     }
 
-    private fun onClick(position: Int, id: Int?) {
+    private fun onClick(position: Int, id: ListViewModel?) {
         navigator.startDetailActivity(this@ListActivity, id)
     }
 
