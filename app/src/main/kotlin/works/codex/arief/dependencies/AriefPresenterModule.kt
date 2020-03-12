@@ -2,6 +2,7 @@ package works.codex.arief.dependencies
 
 import dagger.Module
 import dagger.Provides
+import works.codex.arief.domain.usecase.GetCommentUseCase
 import works.codex.arief.domain.usecase.GetStoryUseCase
 import works.codex.arief.presentation.detail.DetailPresenter
 import works.codex.arief.presentation.list.ListPresenter
@@ -17,6 +18,6 @@ class AriefPresenterModule {
 
     @Singleton
     @Provides
-    fun provideDetailPresenter() =
-        DetailPresenter()
+    fun provideDetailPresenter(getCommentUseCase: GetCommentUseCase) =
+        DetailPresenter(getCommentUseCase)
 }

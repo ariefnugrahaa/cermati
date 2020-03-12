@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="codex/app" />
       <module fileurl="file://$PROJECT_DIR$/codex.iml" filepath="$PROJECT_DIR$/codex.iml" group="codex" />
+      <module fileurl="file://$PROJECT_DIR$/sbprinter/codex-sbprinter.iml" filepath="$PROJECT_DIR$/sbprinter/codex-sbprinter.iml" group="codex/sbprinter" />
       <module fileurl="file://$PROJECT_DIR$/sbprinter/sbprinter.iml" filepath="$PROJECT_DIR$/sbprinter/sbprinter.iml" group="codex/sbprinter" />
     </modules>
   </component>

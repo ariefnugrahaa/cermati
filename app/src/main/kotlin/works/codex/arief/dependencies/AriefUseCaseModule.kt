@@ -3,6 +3,7 @@ package works.codex.arief.dependencies
 import dagger.Module
 import dagger.Provides
 import works.codex.arief.data.server.ApiServiceManager
+import works.codex.arief.domain.usecase.GetCommentUseCase
 import works.codex.arief.domain.usecase.GetStoryUseCase
 import javax.inject.Singleton
 
@@ -12,4 +13,9 @@ class AriefUseCaseModule {
     @Provides
     fun provideGetStoryUseCase(apiServiceManager: ApiServiceManager) =
         GetStoryUseCase(apiServiceManager)
+
+    @Singleton
+    @Provides
+    fun provideGetCommentUseCase(apiServiceManager: ApiServiceManager) =
+        GetCommentUseCase(apiServiceManager)
 }
