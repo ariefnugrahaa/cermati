@@ -11,7 +11,6 @@ import io.reactivex.exceptions.UndeliverableException
 import io.reactivex.plugins.RxJavaPlugins
 import java.io.IOException
 import java.net.SocketException
-import works.codex.arief.BuildConfig
 import works.codex.arief.dependencies.DaggerAriefComponent
 
 class AriefApplication : Application() {
@@ -21,7 +20,6 @@ class AriefApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-
         initLogging()
         initDagger()
         initRxJavaplugins()

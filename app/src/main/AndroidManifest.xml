@@ -13,25 +13,33 @@
         android:required="true" />
 
     <application
-        android:name="works.codex.arief.AriefApplication"
+        android:name=".AriefApplication"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:fullBackupOnly="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:networkSecurityConfig="@xml/network_config"
-        android:usesCleartextTraffic="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
         tools:replace="android:allowBackup">
         <activity
-            android:name="works.codex.arief.presentation.MainActivity"
-            android:theme="@style/AppTheme.Splash">
+            android:name=".presentation.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Splash"
+            tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".presentation.list.ListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Splash"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+            tools:ignore="LockedOrientationActivity" />
     </application>
 
 </manifest>

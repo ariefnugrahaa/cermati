@@ -8,7 +8,7 @@ import io.reactivex.schedulers.Schedulers
 
 abstract class BasePresenter<V> {
 
-    private val subscriptions: CompositeDisposable = CompositeDisposable()
+    private val compositeDisposable: CompositeDisposable = CompositeDisposable()
     private var view: V? = null
 
     fun attach(v: V) {
@@ -18,8 +18,7 @@ abstract class BasePresenter<V> {
 
     fun detach() {
         this.view = null
-        subscriptions.clear()
-        onDetach()
+        compositeDisposable.clear()
     }
 
     fun view(): V = view!!
@@ -29,7 +28,7 @@ abstract class BasePresenter<V> {
     }
 
     protected fun observe(execute: () -> Disposable) {
-        subscriptions.add(execute())
+        compositeDisposable.add(execute())
     }
 
     protected fun <T> subscribeOnIoSchedulers(observable: Observable<T>): Observable<T> {
@@ -39,5 +38,4 @@ abstract class BasePresenter<V> {
     }
 
     protected open fun onAttach() {}
-    protected open fun onDetach() {}
 }

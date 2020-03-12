@@ -21,9 +21,9 @@ ext {
     rxBindingVersion = '2.1.1'
 
     // Networking
-    retrofitVersion = '2.4.0'
-    gsonVersion = '2.4.0'
-    retrofitRxJava2AdapterVersion = '2.4.0'
+    retrofitVersion = '2.7.2'
+    gsonVersion = '2.7.2'
+    retrofitRxJava2AdapterVersion = '2.7.2'
     okHttpVersion = '3.10.0'
 
     // Libraries

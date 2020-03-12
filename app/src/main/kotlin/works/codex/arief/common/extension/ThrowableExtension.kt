@@ -30,11 +30,11 @@ fun Throwable.isServerRequestErrorNetwork(): Boolean {
 
 fun Throwable.getHttpErrorMessage(): String? {
     if (this is HttpException) {
-        return this.response().errorBody()?.string()
+        return this.response()?.errorBody()?.string()
     }
     val throwableCause = this.cause
     if (throwableCause is HttpException) {
-        return throwableCause.response().errorBody()?.string()
+        return throwableCause.response()?.errorBody()?.string()
     }
 
     return null
