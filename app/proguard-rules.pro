@@ -197,12 +197,6 @@
 -keep class * extends com.raizlabs.android.dbflow.config.DatabaseHolder { *; }
 -keep class net.sqlcipher.** { *; }
 
--keep class com.beehapps.waroengonline.data.** { *; }
--keep class com.beehapps.waroengonline.presentation.** { *; }
--keep class com.beehapps.waroengonline.domain.** { *; }
--keep public class com.beehapps.waroengonline.data.**
--keep public class com.beehapps.waroengonline.presentation.**
--keep public class com.beehapps.waroengonline.domain.**
 -dontwarn net.sqlcipher.**
 
 -keep public class * implements com.bumptech.glide.module.GlideModule
