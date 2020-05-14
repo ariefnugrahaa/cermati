@@ -11,7 +11,7 @@ android {
         noCompress "webp"
     }
     defaultConfig {
-        applicationId "works.codex.arief"
+        applicationId "works.cermati.arief"
         minSdkVersion minVersion
         targetSdkVersion targetVersion
         versionCode appVersionCode
@@ -54,12 +54,12 @@ android {
     }
     productFlavors {
         production {
-            resValue "string", "app_name", "Codex Arief"
+            resValue "string", "app_name", "Cermati Arief"
             buildConfigField "String", "BASE_URL", BASE_URL_PRODUCTION
         }
         develop {
             versionNameSuffix "-develop"
-            resValue "string", "app_name", "Codex Arief Dev"
+            resValue "string", "app_name", "Cermati Arief Dev"
             buildConfigField "String", "BASE_URL", BASE_URL_DEVELOPMENT
         }
     }
