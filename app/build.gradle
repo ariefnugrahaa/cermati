@@ -24,14 +24,7 @@ android {
         checkReleaseBuilds false
         abortOnError false
     }
-    signingConfigs {
-        release {
-            storeFile file(KEYSTORE)
-            storePassword KEYSTORE_PASSWORD
-            keyAlias KEY_ALIAS
-            keyPassword KEY_PASSWORD
-        }
-    }
+
     buildTypes {
         debug {
             versionNameSuffix "-debug"
@@ -125,5 +118,4 @@ dependencies {
     implementation libraries.stetho
 
     implementation imageLibraries.glide
-    implementation imageLibraries.roundedImage
 }

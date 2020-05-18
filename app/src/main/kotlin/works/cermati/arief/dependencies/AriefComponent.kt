@@ -20,5 +20,4 @@ interface AriefComponent {
     fun provideApplicationContext(): Context
     fun provideApiServiceManager(): ApiServiceManager
     fun provideUsersPresenter(): UsersPresenter
-
 }

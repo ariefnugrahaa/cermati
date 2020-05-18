@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="codex/app" />
-      <module fileurl="file://$PROJECT_DIR$/codex.iml" filepath="$PROJECT_DIR$/codex.iml" group="codex" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="cermati/app" />
+      <module fileurl="file://$PROJECT_DIR$/cermati.iml" filepath="$PROJECT_DIR$/cermati.iml" group="cermati" />
     </modules>
   </component>
 </project>

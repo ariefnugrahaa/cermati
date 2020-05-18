@@ -7,8 +7,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_main2.*
+import kotlinx.android.synthetic.main.item_users.*
 import works.cermati.arief.AriefApplication
 import works.cermati.arief.R
+import works.cermati.arief.common.extension.makeGone
+import works.cermati.arief.common.extension.makeInvisible
+import works.cermati.arief.common.extension.makeVisible
+import works.cermati.arief.common.extension.showToast
 import works.cermati.arief.presentation.list.adapter.UserAdapter
 import works.cermati.arief.presentation.list.model.UsersModelItem
 
@@ -34,13 +39,15 @@ class ListUsersActivity : AppCompatActivity(), UsersContract.View {
     override fun initViews() {
 
         edit_text_search.addTextChangedListener(object : TextWatcher{
+
             override fun afterTextChanged(p0: Editable?) = Unit
 
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) = Unit
 
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
                 val keyword = p0.toString()
-                if (keyword.isBlank()){
+                if (keyword.isNullOrBlank()){
+                    tv_empty_recyclerview.makeInvisible()
                     getListAdapter()?.setData(originalList.toMutableList())
                     shouldLoadMore = true
                 }else{
@@ -49,13 +56,16 @@ class ListUsersActivity : AppCompatActivity(), UsersContract.View {
                     filteredList
                             .filter { it.login.contains(keyword, ignoreCase = true) }
                             .toMutableList()
-                            .let { if(it.size > 0 ) getListAdapter()?.setData(it) }
-
+                            .let {
+                                getListAdapter()?.setData(it)
+                                if (it.isNullOrEmpty())
+                                    tv_empty_recyclerview.makeVisible()
+                                else
+                                    tv_empty_recyclerview.makeInvisible()
+                            }
                 }
             }
-
         })
-
 
         rv_users.apply {
             layoutManager = LinearLayoutManager(this@ListUsersActivity)
@@ -63,11 +73,15 @@ class ListUsersActivity : AppCompatActivity(), UsersContract.View {
             addOnScrollListener(object: RecyclerView.OnScrollListener() {
                 override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
                     super.onScrolled(recyclerView, dx, dy)
-                    val lastItemId = getListAdapter()?.getAllData()?.last()?.id ?: 0
-                    val lastItemPosition = (layoutManager as? LinearLayoutManager)?.findLastCompletelyVisibleItemPosition() ?: 0
-                    val lastItem = getListAdapter()?.getAllData()?.get(lastItemPosition)?.id ?: 0
-                    if (lastItemId == lastItem && shouldLoadMore){
-                        presenter.fetchUsersData(lastItemId)
+                    if (shouldLoadMore) {
+                        val lastItemId = getListAdapter()?.getAllData()?.last()?.id ?: 0
+                        val lastItemPosition = (layoutManager as? LinearLayoutManager)?.findLastCompletelyVisibleItemPosition()
+                                ?: 0
+                        val lastItem = getListAdapter()?.getAllData()?.get(lastItemPosition)?.id
+                                ?: 0
+                        if (lastItemId == lastItem) {
+                            presenter.fetchUsersData(lastItemId)
+                        }
                     }
                 }
             })
@@ -86,6 +100,7 @@ class ListUsersActivity : AppCompatActivity(), UsersContract.View {
     }
 
     override fun onError(it: Throwable?) {
+        showToast("Error server")
     }
 
     override fun hideLoading() {
