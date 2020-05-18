@@ -10,7 +10,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="076b0eb3-73e4-4dfa-a4c5-ea661b857130" name="Default Changelist" comment="" />
+    <list default="true" id="076b0eb3-73e4-4dfa-a4c5-ea661b857130" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +167,49 @@
       <option name="project" value="LOCAL" />
       <updated>1589771396338</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[Arief] Last Commit">
+      <created>1589773300538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589773300538</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[Arief] Last Commit">
+      <created>1589773421811</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589773421811</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[Arief] Last Commit">
+      <created>1589773434561</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589773434561</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[Arief] Last Commit">
+      <created>1589773454796</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589773454796</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[Arief] Last Commit">
+      <created>1589773671909</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589773671909</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[Arief] Last Commit">
+      <created>1589773685295</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589773685295</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
